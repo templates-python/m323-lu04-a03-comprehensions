@@ -1,5 +1,6 @@
 from main import squares_of_even_numbers
 
+
 def test_squares_of_even_numbers():
     result = squares_of_even_numbers()
     assert len(result) == 50  # Es gibt 50 gerade Zahlen von 1 bis 100
